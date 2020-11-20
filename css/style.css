@@ -10,8 +10,13 @@
 #lezioni .container [class*="col-xs-12"] {
   padding:10px;
 }
+
 #lezioni .container [class*="col-xs-12"] > img{
   height: 150px;
+  padding:5px;
+}
+#lezioni .container [class*="col-md-12"] > img{
+  height: 160px;
   padding:5px;
 }
 
@@ -79,7 +84,12 @@
 
 #why .container [class*="col-xs-12"] > img  {
   padding: 10px;
-  height:145px;
+  height:135px;
+}
+
+#why .container [class*="col-md-12"] > img  {
+  padding: 10px;
+  height:150px;
 }
 
 #why .container [class*="col-xs-12"] > p {
